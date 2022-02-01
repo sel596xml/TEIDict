@@ -1,0 +1,28 @@
+<!ELEMENT TEI (teiHeader|text)*>
+<!ATTLIST TEI xmlns CDATA #REQUIRED>
+<!ELEMENT teiHeader (fileDesc)*>
+<!ELEMENT fileDesc (titleStmt|publicationStmt|sourceDesc)*>
+<!ELEMENT titleStmt (title)*>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT publicationStmt (p)*>
+<!ELEMENT p (#PCDATA)>
+<!ELEMENT sourceDesc (p)*>
+<!ELEMENT text (body)*>
+<!ELEMENT body (entry)*>
+<!ELEMENT entry (form|gramGrp|sense|def|xr|cit)*>
+<!ELEMENT form (orth|lang)*>
+<!ELEMENT orth (#PCDATA)>
+<!ELEMENT lang (#PCDATA)>
+<!ELEMENT gramGrp (#PCDATA|colloc|pos|etym|sense|def)*>
+<!ELEMENT colloc (#PCDATA)>
+<!ELEMENT sense (#PCDATA|def|sense|gramGrp)*>
+<!ATTLIST sense n CDATA #REQUIRED>
+<!ELEMENT def (#PCDATA|bibl|cit|xr)*>
+<!ATTLIST def n CDATA #IMPLIED>
+<!ELEMENT bibl (#PCDATA|author)*>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT pos (#PCDATA)>
+<!ELEMENT xr (#PCDATA)>
+<!ELEMENT cit (quote|bibl)*>
+<!ELEMENT quote (#PCDATA)>
+<!ELEMENT etym (#PCDATA)>
