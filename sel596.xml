@@ -7,14 +7,8 @@
    <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Various dictionary entry examples</title>
+                <title>TEI Dict Page 596</title>
              </titleStmt>
-            <publicationStmt>
-                <p>Not for publication. Intended to demonstrate the TEI Dictionaries stylesheet.</p>
-            </publicationStmt>
-            <sourceDesc>
-                <p>Collected mostly from the TEI Guidelines, with a few from elsewhere.</p>
-            </sourceDesc>
         </fileDesc>
    </teiHeader>
    <text>
