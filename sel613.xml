@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="sel613.xsl"?>
+<!DOCTYPE TEI SYSTEM "sel613.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Various dictionary entry examples</title>
+             </titleStmt>
+            <publicationStmt>
+                <p>Not for publication. Intended to demonstrate the TEI Dictionaries stylesheet.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Collected mostly from the TEI Guidelines, with a few from elsewhere.</p>
+            </sourceDesc>
+        </fileDesc>
+   </teiHeader>
+   <text>
+        <body>      
+                
+            <entry>
+                <form>
+                    <orth>ἱεροφαντία, ας</orth>
+                    <lang>GR</lang>
+                </form>
+                <gramGrp>
+                    <colloc>ἡ</colloc>
+                </gramGrp>
+                <sense n="1">
+                    <def>
+                        office of ἱεροφάντης. <bibl><author>Plut. I</author>, 210 C. <author>II</author>, 621 C.</bibl>
+                    </def>
+                </sense>
+                <sense n="2">
+                    <def>
+                        A revealing of sacred things. <bibl><author>Clem. A. I</author>, 112 C. 1216 C.</bibl>
+                    </def>
+                </sense>
+            </entry>
+  
+            <entry>
+                <form>
+                    <orth>
+                        ἱεροφαντικός, ή, όν
+                    </orth>
+                    <lang>GR</lang>
+                </form>
+                <def>
+                    hirophantic. <bibl><author>Plut. I</author>, 74 E. <author>Lucian. II</author>, 264. <author>Clem. A. Ι</author>, 84 A.</bibl>
+                </def>
+            </entry>
+                
+            <entry>
+                <form>
+                    <orth>ἱεροφαντικῶς</orth>
+                    <lang>GR</lang>
+                </form>
+                <gramGrp>
+                    <pos>adv.</pos>
+                </gramGrp>
+                <def>
+                    like a hierophant. <bibl><author>Lucian. II</author>, 246.</bibl>
+                </def>
+            </entry>
+
+            <entry>
+                <form>
+                    <orth>ἱεροφάντωρ, ορος</orth>
+                    <lang>GR</lang>
+                </form>
+                <gramGrp>
+                    <colloc>ὁ</colloc>
+                </gramGrp>
+                <def>
+                    ἱεροφάντης. <bibl><author>Epiph. II</author>, 741 D, Moses</bibl>.
+                </def>
+            </entry>
+
+            <entry>
+                <form>
+                    <orth>ἱεροφοιτέω, ήσω</orth>
+                    <lang>GR</lang>
+                </form>
+                <gramGrp>
+                    <colloc>(φοιτάω)</colloc>
+                </gramGrp>
+                <def>
+                    to frequent temples. <bibl><author>Ptol.</author> 158.</bibl>
+                </def>
+            </entry>
+
+            <entry>
+                <form>
+                    <orth>ἱεροφόρος</orth>
+                    <lang>GR</lang>
+                </form>
+                <xr>see ἱεραφόρος</xr>
+            </entry>
+
+            <entry>
+                <form>
+                    <orth>ἱεροφυλάκιον, ου</orth>
+                    <lang>GR</lang>
+                </form>
+                <gramGrp>
+                    <colloc>τὸ, (ἱεροφύλαξ)</colloc>
+                </gramGrp>
+                <def>
+                    depository of sacred utensils <bibl><author>Dion. Η. Ι</author>, 384. 12.</bibl>
+                </def>
+            </entry>
+                
+            <entry>
+                <form>
+                    <orth>ἱεροφύλαξ, ακος</orth>
+                    <lang>GR</lang>
+                </form>
+                <gramGrp>
+                    <colloc>ὁ, (φύλαξ)</colloc>
+                </gramGrp>
+                <def>
+                    sacrist of a temple. <bibl><author>Dion. H. I</author>, 395, 1.</bibl>
+                </def>
+            </entry>
+                
+            <entry>
+                <form>
+                    <orth>ἱεροφωνία, ας</orth>
+                    <lang>GR</lang>
+                </form>
+                <gramGrp>
+                    <colloc>ἡ</colloc>
+                </gramGrp>
+                <def>
+                    ἱερὰ φωνή. <bibl><author>Eust. Ant.</author> 665 A.</bibl>
+                </def>
+            </entry>
+                
+            <entry>
+                <form>
+                    <orth>ἱερόφωνος, ov</orth>
+                    <lang>GR</lang>
+                </form>
+                <gramGrp>
+                    <colloc>(φωνή)</colloc>
+                </gramGrp>
+                <def>
+                    Sacred-voiced. Substantively, ὁ ἱερόφωνος, the priest who declares an
+                    oracle; essentially ═ υποφήτης. 
+                    <bibl>Inscr. 4684, <author>τοῦ κυρίου Σαράπιδος.</author></bibl>
+                </def>
+            </entry>
+                
+            <entry>
+                <form>
+                    <orth>ἱεροψάλτης, ου</orth>
+                    <lang>GR</lang>
+                </form>
+                <gramGrp>
+                    <colloc>ὁ</colloc>
+                </gramGrp>
+                <def>
+                    Sacred ψάλτης, psalmist, church-singer. <bibl><author>Sept. Esdr.</author> 1, 1, 14.</bibl>
+                    <bibl><author>Jos. Ant.</author> 11, 5, 1, 12, 3, 3, p. 598.</bibl> 
+                    <bibl><author>Tit. B.</author> 1245 B.</bibl>
+                    <bibl><author>Did. A.</author> 549 A.</bibl>
+                    <bibl><author>Quin. Can.</author> 33.</bibl>
+                </def>
+            </entry>
+                
+            <entry>
+                <form>
+                    <orth>ἱερόψυχος, ov</orth>
+                    <lang>GR</lang>
+                </form>
+                <def>
+                    Sacred ψυχή <bibl><author>Pseudo-Jos. Macc.</author> 17.</bibl>
+                </def>
+            </entry>
+                
+            <entry>
+                <form>
+                    <orth>ἱερόω, ώσω</orth>
+                    <lang>GR</lang>
+                </form>
+                <sense n="1">
+                    <def>to consecrate.</def>
+                </sense>
+                <sense n="2">
+                    <def>Participle, ἱερωμένος</def>
+                    <sense n="(a)">
+                        <def>
+                            consecrated, sacred. Diod. Ex. Vat. 116, 12. Dion. H. I, 57, 10. 389, 10. Plut. II, 403 F. 981 D. Clem. A. II, 37 C.
+                        </def>
+                    </sense>
+                    <sense n="(b)">
+                        <def>
+                            priest, clergyman, in Christian writers. <bibl><author>Eus. II</author>, 965 C. <author>IV</author>, 81 C.</bibl> 
+                            <bibl><author>Socr.</author> 173 A.</bibl>
+                            <bibl><author>Lyd.</author> 253, 5.</bibl>
+                            <bibl><author>Justinian Novell.</author> 3, 2, § a’.</bibl>
+                        </def>
+                    </sense>
+                </sense>
+                <sense n="3">
+                    <def>
+                        <cit><quote>Ἱερωμέναι, ἤγουν πρεσβυτέρισσαι, ἢ ἐμβάθμων διακόνων γυναῖκες.</quote> <bibl><author>Jejun.</author> 1921 D. 1912 B</bibl></cit>
+                    </def>
+                </sense>
+            </entry>
+                
+            <entry>
+                <form>
+                    <orth>ἱέρωμα, ατος</orth>
+                    <lang>GR</lang>
+                </form>
+                <gramGrp>
+                    <colloc>τὁ, (ἱερόω)</colloc>
+                </gramGrp>
+                <def>
+                    thing consecrated to God: offering. <bibl><author>Sept. Macc.</author> 2, 12, 40.</bibl>
+                    <bibl><author>Jos, Ant.</author> 1, 19, 11.</bibl> 
+                    <bibl><author>Cyrill. A. ΙΙ</author>, 33 B.</bibl>
+                </def>
+            </entry>
+                
+            <entry>
+                <form>
+                    <orth>ἱέρωσις, εως</orth>
+                    <lang>GR</lang>
+                </form>
+                <gramGrp>
+                    <colloc>ἡ</colloc>
+                </gramGrp>
+                <def>
+                    consecration. <bibl><author>Dion C. Frag</author>. 13, 3.</bibl> 
+                    <bibl><author>Pseudo-Dion.</author> 124 A.</bibl>
+                </def>
+            </entry>
+            
+            <entry>
+                <form>
+                    <orth> ἱερωσύνη, ης</orth>
+                    <lang>GR</lang>
+                </form>
+                <gramGrp>
+                    <colloc>ἡ</colloc>
+                </gramGrp>
+                <def>
+                    priesthood. 
+                    <cit><quote>ἡ μεγίστη, the office of pontifex maximus.</quote> <bibl><author>Classical. Diod. IΙ</author>, 616, 40, App. II, 122, 56.</bibl></cit>
+                    The Christian priesthood. 
+                    <bibl><author>Epiph.</author> I, 868 D. II, 824 B.</bibl>
+                    <bibl><author>Chrys. I,</author> 382 B. </bibl>
+                    <bibl><author>Soz.</author> 1032 C.</bibl>
+                    Also, ἱεροσύνη. 
+                    <bibl><author>Inscr.</author> 2264, p, p. 1036. </bibl>
+                    <bibl><author>Strab.</author> 16, 2, 37.</bibl>
+                </def>
+            </entry>
+                
+            <entry>
+                <form>
+                    <orth>Ἰευώ</orth>
+                    <lang>GR</lang>
+                </form>
+                <xr>see Ἰαῶ.</xr>
+            </entry>
+                
+            <entry>
+                <form>
+                    <orth>ἵζημα, ατος</orth>
+                    <lang>GR</lang>
+                </form>
+                <gramGrp>
+                    <colloc>τὸ, ἱζάνω</colloc>
+                </gramGrp>
+                <def>
+                    depression, a settling down. 
+                    <bibl><author>Strab.</author> 1, 3, 17. 2, 3, 6. </bibl>
+                    <bibl><author>Plut. II,</author> 434 C. </bibl>
+                    <bibl><author>Longin.</author> 9, 13, in style; opposed to ὕψος.</bibl>
+                </def>
+            </entry>
+                
+            <entry>
+                <form>
+                    <orth>Ἰησοῦς, oῦ</orth>
+                    <lang>GR</lang>
+                </form>
+                <gramGrp>
+                    <colloc>ὁ</colloc>
+                </gramGrp>                
+                <def>
+                    Jesus. <bibl><author>Cels. apud Orig. I</author>, 713 B. 972 D.</bibl> 
+                    <bibl><author>Just. Apol.</author> 1, 33. </bibl>
+                    <bibl><author>Clem. A.</author> I, 316 B.</bibl>
+                    <bibl><author>Orig. I</author>, 896 C. 973 A. 1001 C. 1048 C. 1305 C. 1413 C. </bibl>
+                    <bibl><author>Porphyr. apud Eus. III</author>, 312 C.</bibl>
+                    <bibl><author>Hierocl. apud Eus. IV</author>, 800 B.</bibl>
+                    <bibl><author>Jul.</author> 433 D. </bibl>
+                    <bibl><author>Frag.</author> 327 A. 333 C.</bibl>
+                </def>
+            </entry>
+                
+            <entry>
+                <form>
+                    <orth>ἰθυβόλος, ον</orth>
+                    <lang>GR</lang>
+                </form>
+                <gramGrp>
+                    <etym>ἰθύς, βάλλω</etym>
+                </gramGrp>
+                <def>shooting straight. <bibl><author>Apollod.</author> 3, 15, 1, 5.</bibl></def>
+            </entry>
+                
+            <entry>
+                <form>
+                    <orth>ἰθυδίκη, ης</orth>
+                    <lang>GR</lang>
+                </form>
+                <gramGrp>
+                    <colloc>ἡ</colloc>
+                </gramGrp>
+                <def>═ ἰθεῖα δίκη. <bibl><author>Greg. Naz. IV</author>, 66 A.</bibl></def>
+            </entry>
+                
+            <entry>
+                <form>
+                    <orth>ἰθυδρομέω, ήσω</orth>
+                    <lang>GR</lang>
+                </form>
+                <gramGrp>
+                    <colloc>ἰθύδρομος</colloc>
+                </gramGrp>
+                <def>to run straight forward. <bibl><author>Euagr.</author> 2456 B.</bibl></def>
+            </entry>
+                
+            <entry>
+                <form>
+                    <orth>ἰθύδρομος</orth>
+                    <lang>GR</lang>
+                </form>
+                <gramGrp>
+                    <colloc>τρέχω, δρόμος</colloc>
+                </gramGrp>
+                <def>running straight forward. <bibl><author>Philipp.</author> 15.</bibl></def>
+            </entry>
+                
+            <entry>
+                <form>
+                    <orth>ἰθύνω</orth>
+                    <lang>GR</lang>
+                </form>
+                <def>to straighten.</def> 
+                <cit><bibl><author>Dion.</author> P. 341</bibl> <quote>ἰθυμμένος.</quote></cit>
+            </entry>
+                
+            <entry>
+                <form>
+                    <orth>ἰθυτόμος</orth>
+                    <lang>GR</lang>
+                </form>
+                <gramGrp>
+                    <colloc>ov, (τέμνω)</colloc>
+                </gramGrp>
+                <def>cut straight. <bibl><author>Pseudo-Dion.</author> 337 D.</bibl></def>
+            </entry>
+                
+            <entry>
+                <form>
+                    <orth>ἰθυφάλλειος, αν</orth>
+                    <lang>GR</lang>
+                </form>
+                <def>
+                    <xr>πριάπειος, which see.</xr>
+                </def>
+            </entry>
+                
+            <entry>
+                <form>
+                    <orth>ἰθυφαλλικός, ή, όν</orth>
+                    <lang>GR</lang>
+                </form>
+                <gramGrp>
+                    <colloc>(ἰθύφαλλος) ithyphalicus</colloc>
+                </gramGrp>
+                <def>
+                    ithyphallic. <bibl><author>Heph.</author> 6, 4. 15, 1,</bibl>
+                    μέτρον, ithyphallic verse, consisting of three trochees. <bibl><author> Hermog. Rhet. </author> 230, 6. Schol. Arist. Nub. 1206.</bibl>
+                </def>
+            </entry>
+                
+            <entry>
+                <form>
+                    <orth>ἰίζω, ίσω, (ἰός)</orth>
+                    <lang>GR</lang>
+                </form>
+                <def>
+                    to look rusty. <bibl>Diosc.<author>5, 119 (120), p. 785.</author></bibl>
+                </def>
+            </entry>
+                
+            <entry>
+                <form>
+                    <orth>ἰκανᾶτος, oυ</orth>
+                    <lang>GR</lang>
+                </form>
+                <gramGrp>
+                    <colloc>ὁ</colloc>
+                </gramGrp>
+                <def>
+                    commonly οι ἰκανᾶτοι, hicanati, a body of picked soldiers so called.
+                    <bibl><author>Const. IV</author>784 A.</bibl>
+                    <bibl><author>Nicet. Paphl.</author>492 B.</bibl>
+                    <bibl><author>Porph. Them. </author>26, 16.</bibl>
+                    <bibl><author> Adm.</author>226, 16.</bibl>
+                    <bibl><author>Cer.</author>61, 17. 460, 13. 484, 15. 489, 6 </bibl>
+                    ὁ ἰκανᾶτος ═ oἰ ἰκανᾶτοι collectively considered. Theoph. Cont. 20, 5. 389 τὸ ἱκανᾶτον ═ οἱ ἱκανᾶτοι.
+                </def> 
+            </entry>
+                
+            <entry>
+                <form>
+                    <orth>ἱκανοδοσία, ας</orth>
+                    <lang>GR</lang>
+                </form>
+                <gramGrp>
+                    <colloc>ἡ</colloc>
+                    <colloc>ἱκανός, δόσις</colloc>
+                </gramGrp>
+                <def>
+                    L. satisdatio, a law-term. <bibl><author>Antec.</author> 1, 26, 12.</bibl> <bibl><author>Justinian. Cod.</author> 2, 13, 27.</bibl>
+                </def>
+            </entry>
+                
+            <entry>
+                <form>
+                    <orth>ἱκανός, ἡ, όν</orth>
+                    <lang>GR</lang>
+                </form>
+                <def>
+                    sufficient, enough.
+                    <cit><quote>Καί οὐκ ἦν αὐτῷ ἱκανὸν τοῦ πορεύεσθαι ἐν ταῖς ἁμαρτίαις. </quote><bibl><author>Sept. Reg. </author>3, 16, 31</bibl></cit>
+                    <cit>
+                        <quote>Τὸ ἱκανὸν ποιῆσαι, L. satis facere, or satisfacere, a Latinism</quote>
+                        <bibl><author>Polyb. </author>32, 7, 13.</bibl>
+                        <bibl><author>Diod. Ex. Vat. </author>97, 9, τῇ συγκλήτω.</bibl>
+                        <bibl><author>Marc. </author>15, 15, τῷ ὄχλῳ.</bibl>
+                        <bibl>App. I, 402, 37. Antec. 1, 6, 3, τοῖς κρεδίτορσιν.</bibl>
+                    </cit>
+                    <cit>
+                        <quote>Τὸ ἱκανὸν λαβεῖν, L. satis accipere, to take bail, a Latinism.</quote>
+                        <bibl><author>Luc. </author>Act. 17, 9, παρά τοῦ Ἰάσωνος.</bibl>
+                        <bibl><author>Pallad. Laus. </author> 1044 B. Λαβὼν οὖν ὁ γόης τὸ ἱκανὸν παρ' αὐτοῦ, money.</bibl>
+                    </cit>
+                </def>
+            </entry>
+                
+            <entry>
+                <form>
+                    <orth>ἱκανόω, ώσω</orth>
+                    <lang>GR</lang>
+                </form>
+                <gramGrp>
+                    <colloc>(ἱκανός)</colloc>
+                </gramGrp>
+                <sense n="1">
+                    <def n="a">
+                        to enable, make fit, qualify. <bibl><author>Paul. Cor.</author> 2, 3, 6</bibl>
+                        <cit><quote>ἡμᾶς διακόνους.</quote> <bibl><author>Col.</author> 1, 12</bibl></cit>
+                        <cit><quote>ἡμᾶς εἰς τὴν μερίδα.</quote> <bibl><author>Orig. IV</author> 185 B. 188 C.</bibl></cit>
+                        <cit><quote>Ἱκανωθεὶς διάκονος γενέσθαι τῆς καινῆς διαθήκης.</quote> <bibl><author>Orig. IV</author> 185 B. 188 C.</bibl></cit>
+                    </def>
+                    <def n="b">
+                        to complete. <bibl><author>Andr. C.</author> Method. 1329 D</bibl>
+                    </def>
+                </sense>
+                <sense n="2">
+                    <gramGrp>
+                        <sense n="a">
+                            Mid. ἱκανοῦμαι
+                            <def>
+                                to be content or satisfied with. <bibl><author>Sept. Esth.</author> 4, 17, 29.</bibl>
+                                <bibl><author>Dion. H. </author>I, 398 τινί</bibl>
+                            </def>
+                        </sense>
+                        <sense n="b">
+                            Impersonal, ἱκανοῦμαι 
+                            <def>
+                                it is enough. 
+                                <cit><quote>Ἱκανούσdθω µοι ἀπὸ πάσης δικαιοσύνη.</quote> <bibl><author>Sept. Gen. </author>83, 10, Num. 16, 7, ὑμῖν.</bibl></cit>
+                                <cit><quote>Ἱκανούσθω µοι ἀπὸ πάσης δικαιοσύνη.</quote> <bibl><author>Deut. </author>1, 6, ὑμῖν κατοικεῖν. 8, 26, σοι.</bibl></cit>
+                                <cit><quote>εἶναι ναὸς θεού</quote> <bibl><author>Athan. ΙΙ </author>Reg. 8, 12, 28. 3, 21, 11. Par. 1, 21, 15. 1304 D,</bibl></cit>
+                            </def>
+                        </sense>
+                    </gramGrp>
+                </sense>
+                <sense n="3">
+                    <gramGrp>
+                        To be ἱκανός.
+                        <def>
+                            to be content or satisfied with. <bibl><author>Sept. Esth.</author> 4, 17, 29.</bibl>
+                            <bibl><author>Dion. H. </author><author>Amphil. 61 C.</author>1105 C. </bibl>
+                        </def>
+                    </gramGrp>
+                </sense>
+                <sense n="4">
+                    <def>
+                        So in the middle. <bibl><author>Sept. Malach. </author> 3, 10.</bibl>
+                    </def>
+                </sense>
+            </entry>
+
+            <entry>
+                <form>
+                    <orth>ἱκεσία, ας.</orth>
+                    <lang>GR</lang>
+                </form>
+                <gramGrp>
+                    <colloc>ἦν</colloc>
+                </gramGrp>
+                <sense n="1">
+                    <def>
+                        ἱκετεία. <bibl><author>Diod. 20, 14. II</author>, 628, 96.</bibl>
+                        <bibl><author>Dion. H. I</author>, 556, 1.</bibl>
+                        <bibl><author>Philon II</author>, 2, 29</bibl>
+                    </def>
+                </sense>
+                <sense n="2">
+                    <def>
+                        written petition <bibl><author>Jos. Ant.</author> 11, 8,4.</bibl>
+                        <bibl><author>Plut.</author> 1, 84 B.</bibl>
+                        <bibl><author>Philon II</author>, 2, 29</bibl>
+                        <bibl><author> Phryn.</author>11,</bibl>
+                    </def>
+                </sense>
+                <sense n="3">
+                    <def>
+                        condemned <bibl><author>Theod. III</author> 1193 A.</bibl>
+                    </def>
+                </sense>
+            </entry>
+            
+        </body>
+    </text>
+</TEI>
